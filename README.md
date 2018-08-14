@@ -4,10 +4,14 @@ This element is **not** all that useful as a card (it can be used for that to), 
 
 ## Options
 
-| Name | Type | Default | Description
-| ---- | ---- | ------- | -----------
-| type | string | **Required** | `custom:marquee-state-element`
-| entity | string | **Required** | The entity_id of the entity you want to show.
+| Name | Type | Default |Required | Description
+| ---- | ---- | ------- | ------- | -----------
+| type | string | None | Yes | `custom:marquee-state-element`
+| entity | string | None | Yes | The entity_id of the entity you want to show.
+| width | string | 450px | No | Width of the marquee element.
+| height | string | 50px | No | Hight for the marquee element.
+| speed | string | 10 | No | The spped of the animation `1-100` higher = slower.
+| wait | string | 0 | No | Wait period before starting the animation `1-50` higher = longer wait.
 
 ## Installation
 
